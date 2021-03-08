@@ -2,7 +2,7 @@ FROM centos:7
 LABEL maintainer="pawel.adamczyk.1@p.lodz.pl" 
 #"seweryn.sitarski@p.lodz.pl"
 
-EXPOSE 2925/tcp
+#EXPOSE 2222/tcp
 
 # SGE
 #ADD soge/sgeexecd.blueocean-v15 /etc/init.d/
